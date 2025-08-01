@@ -12,7 +12,7 @@ public class PostmanEchoTest {
         given()
                 .baseUri("https://postman-echo.com")
                 .contentType("text/plain; charset=UTF-8")
-                .body("Какой сегодня год?")
+                .body("Какой сегодня день?")
                 .when()
                 .post("/post")
                 .then()
